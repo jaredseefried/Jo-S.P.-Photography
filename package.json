@@ -26,7 +26,8 @@
     "formidable": "^1.2.2",
     "if-env": "^1.0.4",
     "mongoose": "^5.11.17",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "react-scroll": "^1.8.1"
   },
   "keywords": [],
   "author": "",

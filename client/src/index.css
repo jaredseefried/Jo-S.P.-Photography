@@ -1,3 +1,8 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
