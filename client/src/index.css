@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
   width: 100%;
 }
@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: #000;
 }
 
@@ -20,11 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", serif;
 }
 
-select.form-control,
-textarea.form-control,
-input.form-control {
+select.form-control, textarea.form-control, input.form-control {
   font-size: 1rem;
 }
+
 input[type=file] {
   width: 100%;
 }

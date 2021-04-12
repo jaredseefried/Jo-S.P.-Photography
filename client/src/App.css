@@ -1,48 +1,21 @@
-.App {
-  min-height: 100%;
-  width: 100%;
-  /* color: white; */
-}
-
 .navbar {
-  position: fixed;
   width: 100%;
   z-index: 1;
   background-color: rgba(24, 24, 24, 0.5);
   height: 100px;
-  color: white;
 }
 
-.navbar-light .navbar-nav .nav-link, .nav-link {
-  color: rgb(255 255 255);
-}
-
-.navbar-light .navbar-brand {
-  color: white;
+.navbar-brand {
   font-family: 'Dancing Script', cursive;
-
 }
 
-.navbar-light .navbar-brand:focus, .nav-link:focus {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.navbar, .navbar-light .navbar-brand:hover, .nav-link:hover  {
-  color: #70acb3;
-}
-
-.navbar-logo{
+.navbar-logo {
   float: left;
 }
 
-.navbar-link-text{
+.navbar-link-text {
   margin-top: 22px;
   margin-left: 100px;
-}
-
-.navbar-light .navbar-toggler {
-  color: rgb(250 250 250 / 50%);
-  border-color: rgb(253 253 253);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -57,6 +30,14 @@
   margin: 0px 10px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+p.navbar-link-text {
+  color: white;
+}
+
+a#portfolio, a#services, a#contact {
+  color: white;
+}
+
+a#portfolio:hover, a#services:hover, a#contact:hover, p.navbar-link-text:hover {
   color: #70acb3;
 }
