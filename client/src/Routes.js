@@ -7,6 +7,7 @@ import Signup from "./containers/Signup";
 import Portfolio from "./containers/Portfolio";
 import Services from "./containers/Services";
 import Contact from "./containers/Contact";
+import FamilyPhotos from "./containers/FamilyPhotos";
 
 export default function Routes() {
   return (
@@ -28,6 +29,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/signup">
         <Signup />
+      </Route>
+      <Route exact path="/Family Photos">
+        <FamilyPhotos />
       </Route>
       {/* Finally, catch all unmatched routes */}
       <Route>
