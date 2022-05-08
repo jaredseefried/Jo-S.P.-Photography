@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function FamilyPhotos(props) {
   return (
-    <div>
+    <div className='testing'>
       <h1>Hello</h1>
       <Carousel variant="dark" style={{ position: 'inherit', width: 'auto', height: 'auto' }}>
         <Carousel.Item>
