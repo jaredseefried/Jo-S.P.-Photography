@@ -1,5 +1,5 @@
 import React from 'react';
-import theImage from '../images/josp-photography-2.jpeg'
+import theImage from '../../images/josp-photography-2.jpeg'
 import Carousel from 'react-bootstrap/Carousel'
 import './FamilyPhotos.css'
 

@@ -23,7 +23,7 @@ ul, li {
 
 .cb-slideshow:after {
   content: '';
-  background: transparent url('../images/josp-photography-1.jpeg') repeat top left;
+  background: transparent url('../../images/josp-photography-1.jpeg') repeat top left;
 }
 
 .cb-slideshow li span {
@@ -65,26 +65,26 @@ ul, li {
 }
 
 .cb-slideshow li:nth-child(1) span {
-  background-image: url('../images/josp-photography-2.jpeg')
+  background-image: url('../../images/josp-photography-2.jpeg')
 }
 
 .cb-slideshow li:nth-child(2) span {
-  background-image: url('../images/josp-photography-3.jpeg');
+  background-image: url('../../images/josp-photography-3.jpeg');
   animation-delay: 6s;
 }
 
 .cb-slideshow li:nth-child(3) span {
-  background-image: url('../images/josp-photography-4.jpeg');
+  background-image: url('../../images/josp-photography-4.jpeg');
   animation-delay: 12s;
 }
 
 .cb-slideshow li:nth-child(4) span {
-  background-image: url('../images/josp-photography-5.jpeg');
+  background-image: url('../../images/josp-photography-5.jpeg');
   animation-delay: 18s;
 }
 
 .cb-slideshow li:nth-child(5) span {
-  background-image: url('../images/josp-photography-6.jpeg');
+  background-image: url('../../images/josp-photography-6.jpeg');
   animation-delay: 24s;
 }
 
@@ -119,16 +119,20 @@ ul, li {
     opacity: 0;
     animation-timing-function: ease-in;
   }
+
   8% {
     opacity: 1;
     animation-timing-function: ease-out;
   }
+
   17% {
     opacity: 1
   }
+
   25% {
     opacity: 0
   }
+
   100% {
     opacity: 0
   }
@@ -138,15 +142,19 @@ ul, li {
   0% {
     opacity: 0
   }
+
   8% {
     opacity: 1
   }
+
   17% {
     opacity: 1
   }
+
   19% {
     opacity: 0
   }
+
   100% {
     opacity: 0
   }
@@ -161,19 +169,23 @@ ul, li {
     opacity: 0;
     animation-timing-function: ease-in;
   }
+
   8% {
     opacity: 1;
     transform: scale(1.05);
     animation-timing-function: ease-out;
   }
+
   17% {
     opacity: 1;
     transform: scale(1.1) rotate(3deg);
   }
+
   25% {
     opacity: 0;
     transform: scale(1.1) rotate(3deg);
   }
+
   100% {
     opacity: 0
   }
@@ -185,22 +197,27 @@ ul, li {
     transform: translateX(200px);
     /* width: 0; */
   }
+
   8% {
     opacity: 1;
     transform: translateX(0px);
   }
+
   17% {
     opacity: 1;
     transform: translateX(0px);
     /* width: 1000px; */
   }
+
   19% {
     opacity: 0;
     transform: translateX(-400px);
   }
+
   25% {
     opacity: 0
   }
+
   100% {
     opacity: 0
   }

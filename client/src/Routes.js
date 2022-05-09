@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Home from "./containers/Home";
-import NotFound from "./containers/NotFound";
-import Login from "./containers/Login";
-import Signup from "./containers/Signup";
-import Portfolio from "./containers/Portfolio";
-import Services from "./containers/Services";
-import Contact from "./containers/Contact";
-import FamilyPhotos from "./containers/FamilyPhotos";
+import Home from "./containers/Home/Home";
+import NotFound from "./containers/NotFound/NotFound";
+import Login from "./containers/Login/Login";
+import Signup from "./containers/Signup/Signup";
+import Portfolio from "./containers/Portfolio/Portfolio";
+import Services from "./containers/Services/Services";
+import Contact from "./containers/Contact/Contact";
+import FamilyPhotos from "./containers/FamilyPhotos/FamilyPhotos";
 
 export default function Routes() {
   return (

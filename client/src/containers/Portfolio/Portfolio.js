@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
-import theImage from '../images/josp-photography-2.jpeg'
-import MyCard from '../components/MyCard'
+import theImage from '../../images/josp-photography-2.jpeg'
+import MyCard from '../../components/MyCard'
 
 const portfolioArray = [
   {
