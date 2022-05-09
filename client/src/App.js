@@ -52,9 +52,8 @@ function App() {
                 src={Logo}
                 width="75"
                 height="auto"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top navbar-logo"
                 alt="Jo S.P. Photography logo"
-                className="navbar-logo"
               />
               <p className="navbar-link-text">Jo S.P. Photography</p>
             </Navbar.Brand>
@@ -65,24 +64,24 @@ function App() {
               {isAuthenticated ? (
                 <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
               ) : (
-                  <>
-                    <LinkContainer to="/portfolio">
-                      <Nav.Link id="portfolio">Portfolio</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/services">
-                      <Nav.Link id="services">Services</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/contact">
-                      <Nav.Link id="contact">Contact</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/signup">
-                      <Nav.Link id="signup">Signup</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/login">
-                      <Nav.Link id="login">Login</Nav.Link>
-                    </LinkContainer>
-                  </>
-                )}
+                <>
+                  <LinkContainer to="/portfolio">
+                    <Nav.Link id="portfolio">Portfolio</Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/services">
+                    <Nav.Link id="services">Services</Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/contact">
+                    <Nav.Link id="contact">Contact</Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/signup">
+                    <Nav.Link id="signup">Signup</Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/login">
+                    <Nav.Link id="login">Login</Nav.Link>
+                  </LinkContainer>
+                </>
+              )}
             </Nav>
           </Navbar.Collapse>
         </Navbar>

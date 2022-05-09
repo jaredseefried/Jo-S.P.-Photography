@@ -8,6 +8,10 @@ import Portfolio from "./containers/Portfolio/Portfolio";
 import Services from "./containers/Services/Services";
 import Contact from "./containers/Contact/Contact";
 import FamilyPhotos from "./containers/FamilyPhotos/FamilyPhotos";
+import Events from './containers/Events/Events'
+import FineArt from './containers/FineArt/FineArt'
+import Headshots from './containers/Headshots/Headshots'
+import Lifestyle from './containers/Lifestyle/Lifestyle'
 
 export default function Routes() {
   return (
@@ -32,6 +36,18 @@ export default function Routes() {
       </Route>
       <Route exact path="/Family Photos">
         <FamilyPhotos />
+      </Route>
+      <Route exact path="/Events">
+        <Events />
+      </Route>
+      <Route exact path="/Fine Art">
+        <FineArt />
+      </Route>
+      <Route exact path="/Headshots">
+        <Headshots />
+      </Route>
+      <Route exact path="/Lifestyle">
+        <Lifestyle />
       </Route>
       {/* Finally, catch all unmatched routes */}
       <Route>

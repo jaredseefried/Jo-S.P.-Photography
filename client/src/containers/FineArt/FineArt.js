@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/esm/Carousel';
 import theImage from '../../images/josp-photography-2.jpeg'
 
-function Events(props) {
+function FineArt(props) {
   return (
     <div>
       <div>
@@ -46,4 +46,4 @@ function Events(props) {
   );
 }
 
-export default Events;
+export default FineArt;
