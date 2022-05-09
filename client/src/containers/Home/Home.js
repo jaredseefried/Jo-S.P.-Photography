@@ -4,7 +4,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <>
+    <div id='home-page'>
       <ul class="cb-slideshow">
         <li>
           <span>Image 01</span>
@@ -36,9 +36,7 @@ export default function Home() {
             <h3 className="home-text">Lifestyle</h3>
           </div>
         </li>
-
       </ul>
-
-    </>
+    </div>
   );
 }
