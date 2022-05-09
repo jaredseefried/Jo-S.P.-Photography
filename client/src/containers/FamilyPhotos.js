@@ -1,11 +1,11 @@
 import React from 'react';
 import theImage from '../images/josp-photography-2.jpeg'
 import Carousel from 'react-bootstrap/Carousel'
+import './FamilyPhotos.css'
 
 function FamilyPhotos(props) {
   return (
-    <div className='testing'>
-      <h1>Hello</h1>
+    <div>
       <Carousel variant="dark" style={{ position: 'inherit', width: 'auto', height: 'auto' }}>
         <Carousel.Item>
           <img

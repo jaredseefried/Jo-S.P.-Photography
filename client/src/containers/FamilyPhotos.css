@@ -1,0 +1,6 @@
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 58%;
+  margin: 0 auto;
+}
